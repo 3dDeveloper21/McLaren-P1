@@ -9,7 +9,7 @@ const model = {
         // set up model
         const gltfLoader = new GLTFLoader();
 
-        gltfLoader.load('../static/models/cars/mclaren_p1/scene.gltf',(gltf) =>
+        gltfLoader.load('../models/cars/mclaren_p1/gltf/scene.gltf',(gltf) =>
             {
                 model = gltf.scene;
                 scene.add(model);
